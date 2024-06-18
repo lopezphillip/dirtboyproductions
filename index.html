@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="styles/styles.css" rel="stylesheet" />
+    <title class="gold">Gold Digger</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="banner">Gold Digger</h1>
+<!--      <img class="goldImage" src="images/pile-of-gold.png" alt="pile of gold png" />-->
+      <img class="goldImage" src="images/gold-coins.jpeg" alt="gold coins jpeg" />
+    </div>
+    <div>
+      <p class="instructionsText"></p>
+      <pre class="countedGoldText"></pre>
+    </div>
+    <div>
+      <label for="partySizeInput" class="partySizeInputLabel">Party Size</label>
+      <input type="number" id="partySizeInput" class="partySizeInput"/>
+    </div>
+    <div>
+      <label for="ppInput" class="goldInputLabel">PP</label>
+      <input type="number" id="ppInput" class="goldInput"/>
+      <label for="gpInput" class="goldInputLabel">GP</label>
+      <input type="number" id="gpInput" class="goldInput"/>
+      <label for="spInput" class="goldInputLabel">SP</label>
+      <input type="number" id="spInput" class="goldInput"/>
+      <label for="cpInput" class="goldInputLabel">CP</label>
+      <input type="number" id="cpInput" class="goldInput"/>
+      <input type="submit" value="Add Gold" class="addGoldSubmit"/>
+    </div>
+    <div>
+      <label for="feeInput" class="feeInputLabel">Fee %</label>
+      <input type="number" id="feeInput" class="feeInput"/>
+      <label for="taxInput" class="feeInputLabel">Security Fee %</label>
+      <input type="number" id="taxInput" class="taxInput"/>
+      <label for="titheInput" class="feeInputLabel">Tithe %</label>
+      <input type="number" id="titheInput" class="titheInput"/>
+    </div>
+    <div>
+      <input type="submit" value="Calculate" class="calculateSubmit" />
+    </div>
+    <div>
+      <input type="submit" value="Clear" class="clearSubmit" />
+    </div>
+    <div>
+      <pre class="countedGoldJSONText"></pre>
+    </div>
+    <div>
+      <pre class="calculatedGoldText"></pre>
+    </div>
+  </body>
+  <script src="scripts/main.js"></script>
+</html>

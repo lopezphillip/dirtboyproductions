@@ -1,0 +1,69 @@
+html
+{
+  background-color: hsl(47 58% 23% / 0.2);
+}
+
+.banner
+{
+  color: hsl(47 58% 23%);
+}
+
+.instructionsText
+{
+  color: hsl(47 58% 23%);
+}
+
+.countedGoldText
+{
+  color: hsl(47 58% 23%);
+}
+
+.partySizeInputLabel
+{
+  color: hsl(47 58% 23%);
+}
+
+.goldInputLabel
+{
+  color: hsl(47 58% 23%);
+}
+
+.addGoldSubmit
+{
+  color: hsl(47 58% 23%);
+}
+
+.feeInputLabel
+{
+  color: hsl(47 58% 23%);
+}
+
+.calculatedGoldText
+{
+  color: hsl(47 58% 23%);
+}
+
+.calculateSubmit
+{
+  color: hsl(47 58% 23%);
+}
+
+.clearSubmit
+{
+  color: hsl(47 58% 23%);
+}
+
+
+
+.label
+{
+  font-size: larger;
+  font-weight: bold;
+  color: hsl(47 58% 23%);
+}
+
+.content
+{
+  font-weight: bold;
+  color: hsl(47 58% 23%);
+}
